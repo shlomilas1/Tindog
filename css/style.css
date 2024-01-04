@@ -1,0 +1,117 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title{
+  display:flex;  
+}
+
+#title h1{
+  font-size: 3rem;
+}
+
+#title img {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
+#title .btn{
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  gap: 6px;
+}
+
+#title .btn.btn2{
+  background: none;
+  border:2px solid #f8f9fa;
+  color: #f8f9fa;
+}
+
+#title .btn.btn2 > svg{
+  fill:lightcyan;
+}
+
+
+#title .btn-primary{
+  background: #f8f9fa;
+  color: black;
+  border: none;
+}
+
+#testimonial{
+  background: #e9ecef;
+}
+
+#testimonial .container{
+  padding-top: 60px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+#testimonial .container h2{
+  padding-bottom: 50px;
+}
+
+#testimonial p{
+  
+}
+
+#testimonial .container > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#testimonial .container .logos img{
+  height: 30px;
+}
+
+#pricing .card-body button{
+  background: #212529;
+  color:white;
+  border-color: #212529;
+
+}
+
+#pricing .mastiff{
+  border-color: #212529;
+}
+
+#pricing .mastiff > .card-header{
+  background: #212529;
+  color: white;
+}
+
+#footer{
+  height: 300px;
+}
+
